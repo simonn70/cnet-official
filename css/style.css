@@ -219,7 +219,7 @@ text-align: center;}
 
 .container2{
     box-shadow: 6px 6px 5px 5px;
-    background-color: orange;
+    background-color: #ec7606;
     padding: 10px;
        height: 45px;font-size: 14px;width: 100%;
        margin-top: 20px;
@@ -231,7 +231,7 @@ text-align: center;}
 .container1 {
    box-shadow: 6px 6px 5px 5px;
 height: 100px;
-background-color: orange;
+background-color: #ec7606;
 color: white;
     
 }
@@ -455,7 +455,7 @@ color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 145, 0);
+    background-color: #ec7606;
     z-index: 99999;
     position: fixed;
     left: 0;
