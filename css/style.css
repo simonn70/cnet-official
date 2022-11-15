@@ -219,11 +219,12 @@ text-align: center;}
 
 .container2{
     box-shadow: 6px 6px 5px 5px;
-    
+    background-color: orange;
     padding: 10px;
        height: 45px;font-size: 14px;width: 100%;
        margin-top: 20px;
        margin-bottom: 50px;
+       color: white;
        text-transform: uppercase;
     
 }
