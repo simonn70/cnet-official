@@ -100,6 +100,7 @@ section {
 .slide1 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
     background-size: cover;
+    height:70vh;
     background-position:center center;
     background-repeat: no-repeat;
 }
