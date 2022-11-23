@@ -90,7 +90,7 @@ section {
 
  /* slide */
  .slide {
-     height:75vh;
+     height:68vh;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -112,7 +112,7 @@ section {
     background-repeat: no-repeat;
 }
 .slide3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/mall.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/mall-min.jpg);
     background-size: cover;
      background-position: center;
     background-repeat: no-repeat;
