@@ -90,7 +90,7 @@ section {
 
  /* slide */
  .slide {
-     height:68vh;
+     max-height:68vh;
      display: flex;
      align-items: center;
      justify-content: center;
