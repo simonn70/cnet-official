@@ -90,7 +90,7 @@ section {
 
  /* slide */
  .slide {
-     min-height:68vh;
+     min-height:66vh;
      max-width:100%;
      display: flex;
      align-items: center;
@@ -109,7 +109,7 @@ section {
 .slide2 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/p.jpg);
     background-size: cover;
-    height:68vh;
+    height:66vh;
     background-position:center center;
     background-repeat: no-repeat;
 }
