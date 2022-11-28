@@ -14,9 +14,7 @@ body {
     color: var(--body);
     line-height: 1.7;
 }
-*{
-    max-height:-90vh;
-}
+
 
 h1,h2,h3,h4,h5,h6,
 .display-1,.display-2,.display-3,.display-4 {
