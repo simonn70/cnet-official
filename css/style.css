@@ -43,8 +43,8 @@ a:hover {
 }
 
 section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .text-brand {
@@ -91,6 +91,14 @@ section {
 
  /* slide */
  .slide {
+     min-height:30vh;
+     max-width:100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+}
+.slides {
      min-height:66vh;
      max-width:100%;
      display: flex;
