@@ -91,44 +91,16 @@ section {
 
  /* slide */
  .slide {
-     min-height:30vh;
-     max-width:100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-}
-.slides {
-     min-height:66vh;
-     max-width:100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
+    min-height:30vh;
+    max-width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-.slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
-    background-size: cover;
-   
-    background-position:center center;
-    background-repeat: no-repeat;
-}
 
-.slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/p.jpg);
-    background-size: cover;
-    height:66vh;
-    background-position:center center;
-    background-repeat: no-repeat;
-}
-.slide3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/mall-min.jpg);
-    background-size: cover;
-     background-position: center;
-    background-repeat: no-repeat;
-}
-
+ 
 .slide .display-3 {
     text-transform: uppercase;
     color: #fff;
@@ -235,28 +207,6 @@ text-align: center;}
     width: 90px;
 }
 
-.container2{
-    box-shadow: 6px 6px 5px 5px;
-    background-color: #ec7606;
-    padding: 10px;
-       height: 45px;font-size: 14px;width: 100%;
-       margin-top: 20px;
-       margin-bottom: 50px;
-       color: white;
-       text-transform: uppercase;
-    
-}
-.container1 {
-   box-shadow: 6px 6px 5px 5px;
-height: 100px;
-background-color: #ec7606;
-color: white;
-    
-}
-
-.tell{
-    display: flex;
-}
 
 
 
@@ -379,7 +329,7 @@ color: white;
 
 #reviews {
 
-    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../img/team_2.jpg), #082032;;
+    background: linear-gradient(-90deg, rgba(2, 48, 83, 0.8), rgba(2, 38, 66, 0.8)), url(..), #082032;;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -500,35 +450,173 @@ input.form-control {
 }
 
 
-@media screen and (min-width:1020px) {
+@media screen and (max-width:1020px) {
     .container2{
-        width: 1000px;
-        height: 50px;
-        margin: 100px;
-        position: relative;
-        left: 90px;
-        font-size: 20px;
-        text-align: center;
-    }
-    .tell {
-        font-size: 20px;
-       display: flex;
-         margin: 20px;
+        box-shadow: 6px 6px 5px 5px;
+        background-color: #ec7606;
+        padding: 10px;
+           height: 45px;font-size: 14px;width: 100%;
+           margin-top: 20px;
+           margin-bottom: 50px;
+           color: white;
+           text-transform: uppercase;
         
-        height: 200px;
     }
-    .text{
-        font-size: 20px;
-        margin-left: 50px;
+    .slides {
+        min-height:70vh;
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
     }
-    .tell img{
+    
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background-size: cover;
+    height:66vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+    }
+    
+    .slide2 {
+       background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/p.jpg);
+       background-size: cover;
+       height:66vh;
+       background-position:center center;
+       background-repeat: no-repeat;
+    }
+    .slide3 {
+       background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/mall-min.jpg);
+       background-size: cover;
+        background-position: center;
+       background-repeat: no-repeat;
+    }
+   
+   
+    
+    .container1 {
+       box-shadow: 6px 6px 5px 5px;
+    height: 100px;
+    background-color: #ec7606;
+    color: white;
+        
+    }
+    
+    .tell{
+        display: flex;
+    }
+    .tell .text{
+        margin-left:20px ;
+    }
+    .tell .text h2{
+        color: #ec7606; font-size: 19px;
+    }
+    .tell img {
+        margin-top:50px ;height: 100px;
+    }
+
+    #milestone .container1 .gy-4{
+        display: flex;color: white; justify-content: space-between;font-size: 12px;padding: 10px;
+    }
+
+    .item{
+        margin-left: 20px;
+    }
+    .item h2{
+        color: #ec7606;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width:1020px){
+    .container2{
+        box-shadow: 6px 6px 5px 5px;
+        background-color: #ec7606;
+        padding-bottom: 60px;
+        height: 45px;font-size: 14px;width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+    }
+    .slides {
+        min-height:100vh;
+        max-width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background-size: cover;
+    height:66vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+    }
+    
+    .slide2 {
+       background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/p.jpg);
+       background-size: cover;
+       height:66vh;
+       background-position:center center;
+       background-repeat: no-repeat;
+    }
+    .slide3 {
+       background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/mall-min.jpg);
+       background-size: cover;
+        background-position: center;
+       background-repeat: no-repeat;
+    }
+    .container1 {
+       box-shadow: 6px 6px 5px 5px;
+    height: 100px;
+    background-color: #ec7606;
+    color: white;
+        
+    }
+    
+    .tell{
+        display: flex;
+    }
+    .tell .text{
+        margin-left:20px ;
+    }
+    .tell .text h2{
+        color: #ec7606; font-size: 30px;
+    }
+    .tell .text p{
+        font-size: 19px;
+    }
+    .tell img {
         width: 50%;
-        height: 300px;
+        height: 50vh;
     }
-    .container1{
-        font-size: 10px;
-    margin-top: 30px;
-    width: 80%;
-    margin-left: 100px;
+
+    #milestone .container1 .gy-4{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: white;
+       
+       gap: 0px;
+       padding: 10px;
+      
     }
+
+    .item{
+        margin-left: 20px;
+    }
+    .item h2{
+        color: #ec7606;
+    }
+      
 }
